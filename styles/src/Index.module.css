@@ -1,0 +1,22 @@
+.popoverContent:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.popover {
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  font-size: 1.5rem;
+}
+
+/* fade in animation */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

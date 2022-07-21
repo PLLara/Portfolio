@@ -1,0 +1,43 @@
+/* * Flexible style */
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.flex {
+  flex:1;
+}
+
+
+/* * Full Sized style */
+.fullViewHeight{
+  height: 100vh;
+}
+.fullViewWidth{
+  width: 100vw;
+}
+
+
+/* * Styled style */
+.fieldset{
+  border-radius: 0.8rem;
+  border-color: #555;
+  border-width: 0.2rem;
+}
+.lp{
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+/* * Centered */
+.cMargin{
+  margin: 0 auto;
+  color: red;
+}
+
+
