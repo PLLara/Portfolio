@@ -32,13 +32,12 @@ const Home: NextPage = () => {
           <Legend>
             <h2>Projetos</h2>
           </Legend>
-          <center>
-            <Lp>
-              Obs: Nenhum tutorial / curso / bootcamp etc... foi utilizado
-              durante a produção destes softwares, todos foram feitos
-              indivualmente por mim.
-            </Lp>
-          </center>
+          
+          <CColumn>
+            Obs: Nenhum tutorial / curso / bootcamp etc... foi utilizado durante
+            a produção destes softwares, todos foram feitos indivualmente por
+            mim.
+          </CColumn>
 
           <CRow>
             <Fieldset>
@@ -49,9 +48,11 @@ const Home: NextPage = () => {
                 <Flex>
                   <div></div>
                 </Flex>
-                <Flex style={{
-                  flex:3
-                }}>
+                <Flex
+                  style={{
+                    flex: 3,
+                  }}
+                >
                   <div></div>
                   <Column>
                     <h4>Tecnologias utilizadas:</h4>
